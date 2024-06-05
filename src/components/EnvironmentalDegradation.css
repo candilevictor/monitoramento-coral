@@ -1,0 +1,88 @@
+.coral-reefs {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .coral-reefs .title {
+    font-size: 36px;
+    color: #0077be;
+    margin-bottom: 20px;
+  }
+  
+  .coral-reefs .description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .coral-reefs .reef-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .coral-reefs .reef-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .coral-reefs .reef-card img.reef-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .coral-reefs .reef-card h2.reef-name {
+    font-size: 24px;
+    color: #0077be;
+    margin-bottom: 10px;
+  }
+  
+  .coral-reefs .reef-card p.reef-description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .coral-reefs .back-button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #bddff3;
+    margin-top: 20px; /* Espaço entre o botão e a imagem */
+   }
+   
+   .coral-reefs .back-button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .coral-reefs .back-button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .coral-reefs .back-button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }

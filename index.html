@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Coral Conservancy</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+      <!-- Botão de toggle para o menu -->
+      <button class="btn" onclick="toggleMenu()">
+        <span class="icon">
+            <svg viewBox="0 0 175 80" width="40" height="40">
+                <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+            </svg>
+        </span>
+        <span class="text">MENU</span>
+    </button>
+    
+
+    <!-- Menu dropdown -->
+    <div class="dropdown-menu" id="dropdownMenu">
+      <ul>
+        <li><a href="/environmental-detection">Recifes de Corais</a></li>
+        <li><a href="/species-identification">Identificação de Coral</a></li>
+      </ul>
+    </div>
+  
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("dropdownMenu");
+      menu.style.display = menu.style.display === "none" ? "block" : "none";
+    }
+  </script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+/* Estilo para o botão de menu */
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background: #040f16;
+    color: #f5f5f5;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 20px 0px #2e2e2e3a;
+  }
+  
+  .btn .icon {
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  
+  .btn .text {
+    transform: translateX(55px);
+  }
+  
+  .btn:hover .icon {
+    width: 175px;
+  }
+  
+  .btn:hover .text {
+    transition: all 0.5s;
+    opacity: 0;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active .icon {
+    transform: scale(0.85);
+  }
+  
+.dashboard {
+    position: relative;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 48px;
+    color: #0077be;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .dashboard nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .dashboard nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Adicionando espaçamento entre os botões */
+  .dashboard nav ul li:not(:last-child) {
+    margin-right: 10px; /* Espaçamento menor entre os botões */
+  }
+  
+  .dashboard nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard nav ul li a:hover {
+    background-color: #919191; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada ao passar o mouse */
+  }
+  

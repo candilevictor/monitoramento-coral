@@ -1,0 +1,176 @@
+/* SpeciesIdentification.css */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 16px;
+    gap: 8px;
+    height: 40px;
+    width: 128px;
+    border: none;
+    background: #056bfa27;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espaço entre a imagem e o parágrafo abaixo */
+  }
+
+  .species-identification {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px 100px; /* Reduzindo o padding para dar mais espaço para a imagem */
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .species-identification input[type="file"] {
+    margin-top: 20px; /* Espaço entre o botão e a imagem */
+    margin-bottom: 20px; /* Espaço entre a imagem e o parágrafo abaixo */
+    background-color: #f7f7f7;
+    color: #0077be;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .species-identification img {
+    max-width: 100%;
+    margin-bottom: 20px; /* Espaço entre a imagem e o parágrafo abaixo */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .lable {
+    margin-top: 1px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #056DFA;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background: #056bfa49;
+  }
+  
+  .button:hover .svg-icon {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(-8deg);
+    }
+  
+    50% {
+      transform: rotate(0deg);
+    }
+  
+    75% {
+      transform: rotate(8deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+.species-identification {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .species-identification .title {
+    font-size: 36px;
+    color: #0077be;
+    margin-bottom: 20px;
+  }
+  
+  .species-identification input[type="file"] {
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    color: #0077be;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .species-identification img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .species-identification .species-result {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0077be; /* Adiciona uma borda estilizada */
+  }
+  
+  .species-identification .species-result h3 {
+    font-size: 24px;
+    color: #0077be;
+    margin-bottom: 10px;
+  }
+  
+  .species-identification .species-result p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .species-identification .back-button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #bddff3;
+    margin-top: 20px; /* Espaço entre o botão e a imagem */
+   }
+   
+   .species-identification .back-button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .species-identification .back-button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .species-identification .back-button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+  
